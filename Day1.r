@@ -1,3 +1,6 @@
+rm(list = ls())
+cat("\014")
+
 #Band name generator start
 cat("Hello, I am here to create your restaurant's name.\n")
 city <- readline(prompt = "Where were you born? ")
